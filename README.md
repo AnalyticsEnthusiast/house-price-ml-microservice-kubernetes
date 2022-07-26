@@ -1,8 +1,8 @@
-[![AnalyticsEnthusiast](https://circleci.com/gh/AnalyticsEnthusiast/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/AnalyticsEnthusiast/DevOps_Microservices)
+[![AnalyticsEnthusiast](https://circleci.com/gh/AnalyticsEnthusiast/house-price-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/AnalyticsEnthusiast/house-price-ml-microservice-kubernetes)
 
 
 ## Project Summary
--------------------
+
 
 <p>This project involves the operationalization of a House price prediction API developed by our Data science team. The model uses a sklearn model 
 that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios etc. 
@@ -11,9 +11,9 @@ The application has been designed to run in a kubernetes environment to take adv
 <br>
 
 ## How to run
--------------------
 
-To run the application directly, you can run app.py file directly like so. The API should be exposed on port 80 by default.
+
+To run the application directly, you can run app.py file like so. The API should be exposed on port 80 by default.
 
 ```
 > python3 app.py
@@ -34,7 +34,7 @@ You can then run the container like so, exposing the container on port 8001 on t
 <br>
 
 ## Project files
--------------------
+
 
 
 | Filename            | Description                                           | 
